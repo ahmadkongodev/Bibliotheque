@@ -2,6 +2,14 @@
 
 Application web PHP/MySQL de gestion et de consultation d'un catalogue de livres.
 
+## Code Source sur github Clonable
+
+- Pour cloner directement le code source du projet dans votre ordinateur, Utilisez la commande
+```text 
+git clone https://github.com/ahmadkongodev/Bibliotheque.git
+```
+
+
 ## 1. Fonctionnalites
 
 - Consultation publique du catalogue.
@@ -154,17 +162,6 @@ Le formulaire affiche un apercu local avant l'envoi. Lors d'une modification, l'
 
 ## 9. Depannage
 
-### Erreur `Undefined variable $pdo`
-
-Une page qui execute une requete doit initialiser la connexion :
-
-```php
-$pdo = getPDO();
-```
-
-### Erreur sur `mot_de_passe`
-
-Executer la migration SQL de la section 4.3, puis reessayer.
 
 ### Image non visible
 
