@@ -2,6 +2,9 @@
 
 Application web PHP/MySQL de gestion et de consultation d'un catalogue de livres.
 
+## Autheur
+KONGO Hamado, le 18/09/20266
+
 ## Code Source sur github Clonable
 
 - Pour cloner directement le code source du projet dans votre ordinateur, Utilisez la commande
